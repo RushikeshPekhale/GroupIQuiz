@@ -27,7 +27,7 @@ CREATE TABLE `student_details` (
   `Stud_name` varchar(255) DEFAULT NULL,
   `marks` int DEFAULT NULL,
   PRIMARY KEY (`stud_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +36,7 @@ CREATE TABLE `student_details` (
 
 LOCK TABLES `student_details` WRITE;
 /*!40000 ALTER TABLE `student_details` DISABLE KEYS */;
-INSERT INTO `student_details` VALUES (1,'rushi p',NULL),(2,'rushiksh p',NULL),(3,'rushikesh pp',NULL),(4,NULL,2),(5,'rushi p',NULL),(6,NULL,1),(7,'manish p',2),(8,'vaishali m',1),(9,'rucha a',2),(10,'ruchs a',2),(11,'RUCHA S',2),(12,'rucha s',1),(13,'rushi p',2),(14,'rushi p',1),(15,'rucha a',1),(16,'ram p',1),(17,'ram t',0),(18,'Richa pekhale',1),(19,'vaishali m',1);
+INSERT INTO `student_details` VALUES (1,'rushi p',NULL),(2,'rushiksh p',NULL),(3,'rushikesh pp',NULL),(4,NULL,2),(5,'rushi p',NULL),(6,NULL,1),(7,'manish p',2),(8,'vaishali m',1),(9,'rucha a',2),(10,'ruchs a',2),(11,'RUCHA S',2),(12,'rucha s',1),(13,'rushi p',2),(14,'rushi p',1),(15,'rucha a',1),(16,'ram p',1),(17,'ram t',0),(18,'Richa pekhale',1),(19,'vaishali m',1),(20,'rushikesh p',2);
 /*!40000 ALTER TABLE `student_details` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-06 22:05:02
+-- Dump completed on 2022-11-07  7:35:30

@@ -30,7 +30,7 @@ CREATE TABLE `options` (
   `option4` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`Ques_no`),
   CONSTRAINT `options_ibfk_1` FOREIGN KEY (`Ques_no`) REFERENCES `question` (`Ques_no`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `options` (
 
 LOCK TABLES `options` WRITE;
 /*!40000 ALTER TABLE `options` DISABLE KEYS */;
-INSERT INTO `options` VALUES (1,'A) 8','B) 7','c) 6','D) 5'),(2,'A) short to int','B) long to int','c) int to long','D) byte to int'),(3,'A) char ch=new char(5)','B) char ch=new char[5]','c) char ch=new char()','D) char ch=new char[]');
+INSERT INTO `options` VALUES (1,'A) 8','B) 7','c) 6','D) 5'),(2,'A) short to int','B) long to int','c) int to long','D) byte to int'),(3,'A) char ch=new char(5)','B) char ch=new char[5]','c) char ch=new char()','D) char ch=new char[]'),(4,'objects','primitive data type','none','reference object'),(5,'none','At runtime','compile time','depends on code'),(6,'none','violatile','final','static'),(7,'An int value','none','false','true'),(8,'12','none','13','8'),(9,'string','double','int','void'),(10,'4','3.0','2','none');
 /*!40000 ALTER TABLE `options` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-06 22:05:02
+-- Dump completed on 2022-11-07  7:35:29

@@ -27,7 +27,7 @@ CREATE TABLE `question` (
   `Ques` varchar(500) DEFAULT NULL,
   `Ans` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`Ques_no`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +36,7 @@ CREATE TABLE `question` (
 
 LOCK TABLES `question` WRITE;
 /*!40000 ALTER TABLE `question` DISABLE KEYS */;
-INSERT INTO `question` VALUES (1,'\nNumber of primitive data types in Java are','A'),(2,'Automatic type conversion is possible in which of the possible cases?','C'),(3,'Select the valid statement.',' B');
+INSERT INTO `question` VALUES (1,'\nNumber of primitive data types in Java are','A'),(2,'Automatic type conversion is possible in which of the possible cases?','C'),(3,'Select the valid statement.',' B'),(4,'Arrays in java are-','A'),(5,'When is the object created with new keyword?','B'),(6,' Identify the keyword among the following that makes a variable belong to class','D'),(7,'compareTo() returns','A'),(8,'Total constructor string class have?','C'),(9,'Identify the return type of a method that does not return any value.','D'),(10,'Output of Math.floor(3.6)?','B');
 /*!40000 ALTER TABLE `question` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-06 22:05:02
+-- Dump completed on 2022-11-07  7:35:29
